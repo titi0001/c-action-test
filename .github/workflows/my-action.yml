@@ -1,0 +1,12 @@
+#
+name: Leaming Workflow
+
+on: [push]
+
+jobs:
+
+    say-hello:
+        runs-os : ubuntu-latest
+        steps:
+            - run : echo "Hello, World!"
+            
