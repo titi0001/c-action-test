@@ -4,9 +4,7 @@ name: Leaming Workflow
 on: [push]
 
 jobs:
-
-    say-hello:
-        runs-os : ubuntu-latest
+  say-hello:
+        runs-on: ubuntu-latest
         steps:
             - run : echo "Hello, World!"
-            
