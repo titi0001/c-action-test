@@ -13,7 +13,7 @@ jobs:
       needs: [say-hello]
       runs-on: ubuntu-latest
       steps:
-          - name: Checkout
+          - name: Checkout out this repo
             uses: actions/checkout@v3
 
           - name: Install dependencies
